@@ -23,21 +23,23 @@ public class ObtenInfoAparcamientos : MonoBehaviour
         }, (string text) =>
         {
             // Successfully contacted URL
-            Debug.Log("Success: " + text);
+            Debug.Log("Success");
             data = DataAparcamientos.LoadData(text);
-            Debug.Log(data.total);
 
             GameObject go = Instantiate(total, pos);
-            go.transform.localScale = new Vector3(1, (data.total / 1000f), 1);
+            float aux = data.total / 1000f;
+            go.transform.localScale = new Vector3(1, aux, 1);
+            go.transform.localPosition = go.transform.localPosition + new Vector3(0, aux/2f, 0);
 
             go = Instantiate(habitants, pos);
-            go.transform.localScale = new Vector3(1, (data.habitants / 1000f), 1);
-            go.transform.position = go.transform.position + new Vector3(0.09f, 0, 0);
+            aux = data.habitants / 1000f;
+            go.transform.localScale = new Vector3(1, aux, 1);
+            go.transform.localPosition = go.transform.localPosition + new Vector3(0.7f, aux/2f, 0);
 
             go = Instantiate(liures, pos);
-            go.transform.localScale = new Vector3(1, (data.lliures / 1000f), 1);
-            go.transform.position = go.transform.position + new Vector3(-0.09f, 0, 0);
-            Debug.Log(go.transform.localScale);
+            aux = data.lliures / 1000f;
+            go.transform.localScale = new Vector3(1, aux, 1);
+            go.transform.localPosition = go.transform.localPosition + new Vector3(-0.7f, aux/2f, 0);
         });
     }
 }
