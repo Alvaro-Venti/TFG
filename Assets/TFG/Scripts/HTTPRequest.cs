@@ -54,6 +54,7 @@ public static class HTTPRequest
                     {
                         // Crear el substring que contiene solo el campo "fields"
                         string fields = www.downloadHandler.text.Substring(startIndex, endIndex - startIndex + 1);
+                        //Debug.Log(fields);
                         onSuccess(fields);
                     }
                     else

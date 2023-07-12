@@ -853,8 +853,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4294499977
+  m_fontColor: {r: 0.5372549, g: 0.87058824, b: 0.972549, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1888,6 +1888,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &165466046 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8370674913979532802, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &165466049 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8370674913979532829, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &165466050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165466046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bce927b541cd6245892812f701b06b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: '{"nhits": 1, "parameters": {"dataset": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "rows": 10, "start": 0, "refine": {"nombre": "Viveros"}, "format": "json", "timezone":
+    "UTC"}, "records": [{"datasetid": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "recordid": "8be0bba8617ae91066a36969c2ab0eeb07941207", "fields": {"so2": 4.0,
+    "no2": 4.0, "geo_point_2d": [39.47964092480533, -0.36964822314381013], "direccion":
+    "Jardines de Viveros", "fecha_carga": "2023-07-12T12:20:25+00:00", "calidad_ambiental":
+    "Buena", "objectid": 28, "geo_shape": {"coordinates": [-0.36964822314381013,
+    39.47964092480533], "type": "Point"}, "tipozona": "Urbana", "tipoemision": "Fondo",
+    "globalid": "{BDBBDFDF-C316-466A-A64C-897F1F5ED4C8}", "nombre": "Viveros", "parametros":
+    "Di\u00f3xido de azufre (SO2),\u00d3xidos de nitr\u00f3geno totales (NOx),Mon\u00f3xido
+    de nitr\u00f3geno (NO),Di\u00f3xido de nitr\u00f3geno (NO2),Ozono,Part\u00edculas
+    PM2.5,Part\u00edculas PM10,Niquel (Ni),Ars\u00e9nico (As),Plomo (Pb),Cadmio (Cd)",
+    "mediciones": "http://mapas.valencia.es/WebsMunicipales/uploads/atmosferica/5A.csv",
+    "o3": 38.0}, "geometry": {"type": "Point", "coordinates": [-0.36964822314381013,
+    39.47964092480533]}, "record_timestamp": "2023-07-12T11:10:04.323Z"}], "facet_groups":
+    [{"name": "nombre", "facets": [{"name": "Viveros", "count": 1, "state": "refined",
+    "path": "Viveros"}]}]}'
+  sistema: {fileID: 165466049}
 --- !u!1 &176515483
 GameObject:
   m_ObjectHideFlags: 0
@@ -2242,6 +2284,91 @@ Transform:
   m_Father: {fileID: 684243691}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &242880690 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8370674914310629921, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &242880693 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8370674914310629948, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &242880694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242880690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bce927b541cd6245892812f701b06b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: '{"nhits": 1, "parameters": {"dataset": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "rows": 10, "start": 0, "refine": {"nombre": "Mol\u00ed del Sol"}, "format":
+    "json", "timezone": "UTC"}, "records": [{"datasetid": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "recordid": "e0b6ee52e38b390660bb1c3e64534dcacd4f2c95", "fields": {"so2": 2.0,
+    "no2": 6.0, "pm10": 25.0, "geo_point_2d": [39.4811060881372, -0.4087933161695803],
+    "direccion": "Avda. P\u00edo Baroja - Avda. General Avil\u00e9s", "fecha_carga":
+    "2023-07-12T12:20:19+00:00", "calidad_ambiental": "Razonablemente Buena", "objectid":
+    25, "geo_shape": {"coordinates": [-0.4087933161695803, 39.4811060881372], "type":
+    "Point"}, "tipozona": "Suburbana", "tipoemision": "Tr\u00e1fico", "globalid":
+    "{3DD542DB-13C5-49FD-BA42-536383DC21A6}", "nombre": "Mol\u00ed del Sol", "parametros":
+    "Di\u00f3xido de azufre (SO2),Mon\u00f3xido de carbono (CO),Ozono,\u00d3xidos
+    de nitr\u00f3geno totales (NOx),Mon\u00f3xido de nitr\u00f3geno (NO),Di\u00f3xido
+    de nitr\u00f3geno (NO2),Part\u00edculas PM10,Part\u00edculas PM2.5,Part\u00edculas
+    PM1", "co": 0.3, "mediciones": "http://mapas.valencia.es/WebsMunicipales/uploads/atmosferica/3A.csv",
+    "o3": 29.0, "pm25": 12.0}, "geometry": {"type": "Point", "coordinates": [-0.4087933161695803,
+    39.4811060881372]}, "record_timestamp": "2023-07-12T11:10:04.323Z"}], "facet_groups":
+    [{"name": "nombre", "facets": [{"name": "Mol\u00ed del Sol", "count": 1, "state":
+    "refined", "path": "Mol\u00ed del Sol"}]}]}'
+  sistema: {fileID: 242880693}
+--- !u!1 &245951337 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8370674914708526256, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &245951340 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8370674914708526259, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &245951341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 245951337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bce927b541cd6245892812f701b06b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: '{"nhits": 1, "parameters": {"dataset": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "rows": 10, "start": 0, "refine": {"nombre": "Boulevar Sur"}, "format": "json",
+    "timezone": "UTC"}, "records": [{"datasetid": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "recordid": "4737b15e5f82f60afa18010ee458b53d41c6a945", "fields": {"so2": 4.0,
+    "no2": 8.0, "geo_point_2d": [39.45039600550536, -0.3963375643758562], "direccion":
+    "Avda. Tres Cruces s/n (Parking Cementerio de Valencia)", "fecha_carga": "2023-07-12T12:20:18+00:00",
+    "calidad_ambiental": "Buena", "objectid": 24, "geo_shape": {"coordinates": [-0.3963375643758562,
+    39.45039600550536], "type": "Point"}, "tipozona": "Urbana", "tipoemision": "Tr\u00e1fico",
+    "globalid": "{4074B88B-9F3D-448E-AAB4-D856E94289BD}", "nombre": "Boulevar Sur",
+    "parametros": "Di\u00f3xido de azufre (SO2),Ozono,\u00d3xidos de nitr\u00f3geno
+    totales (NOx),Mon\u00f3xido de nitr\u00f3geno (NO),Di\u00f3xido de nitr\u00f3geno
+    (NO2),Part\u00edculas PM10,Niquel (Ni),Ars\u00e9nico (As),Plomo (Pb),Benzo(a)pireno
+    (BaP),Cadmio (Cd)", "mediciones": "http://mapas.valencia.es/WebsMunicipales/uploads/atmosferica/7A.csv",
+    "o3": 22.0}, "geometry": {"type": "Point", "coordinates": [-0.3963375643758562,
+    39.45039600550536]}, "record_timestamp": "2023-07-12T11:00:47.523Z"}], "facet_groups":
+    [{"name": "nombre", "facets": [{"name": "Boulevar Sur", "count": 1, "state":
+    "refined", "path": "Boulevar Sur"}]}]}'
+  sistema: {fileID: 245951340}
 --- !u!1 &248620548
 GameObject:
   m_ObjectHideFlags: 0
@@ -3282,6 +3409,48 @@ Transform:
   m_Father: {fileID: 176515484}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!1 &368631439 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8370674914144676759, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &368631442 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8370674914144676754, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &368631443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368631439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bce927b541cd6245892812f701b06b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: '{"nhits": 1, "parameters": {"dataset": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "rows": 10, "start": 0, "refine": {"nombre": "Universidad Polit\u00e9cnica"},
+    "format": "json", "timezone": "UTC"}, "records": [{"datasetid": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "recordid": "cbcfba7002c91172f46a8c0d2502e9da6d85566f", "fields": {"so2": 3.0,
+    "no2": 2.0, "pm10": 15.0, "geo_point_2d": [39.47964449692915, -0.33740066052186946],
+    "direccion": "Campus de la U. Polit\u00e9cnica. Avda. Tarongers", "fecha_carga":
+    "2023-07-12T12:20:24+00:00", "calidad_ambiental": "Razonablemente Buena", "objectid":
+    27, "geo_shape": {"coordinates": [-0.33740066052186946, 39.47964449692915], "type":
+    "Point"}, "tipozona": "Suburbana", "tipoemision": "Fondo", "globalid": "{1AE2B5DE-2309-46B6-A751-B61F1AD3D556}",
+    "nombre": "Universidad Polit\u00e9cnica", "parametros": "Di\u00f3xido de azufre
+    (SO2),Ozono,\u00d3xidos de nitr\u00f3geno totales (NOx),Mon\u00f3xido de nitr\u00f3geno
+    (NO),Di\u00f3xido de nitr\u00f3geno (NO2),Part\u00edculas PM10,Part\u00edculas
+    PM2.5", "mediciones": "http://mapas.valencia.es/WebsMunicipales/uploads/atmosferica/1A.csv",
+    "o3": 39.0, "pm25": 12.0}, "geometry": {"type": "Point", "coordinates": [-0.33740066052186946,
+    39.47964449692915]}, "record_timestamp": "2023-07-12T11:10:04.323Z"}], "facet_groups":
+    [{"name": "nombre", "facets": [{"name": "Universidad Polit\u00e9cnica", "count":
+    1, "state": "refined", "path": "Universidad Polit\u00e9cnica"}]}]}'
+  sistema: {fileID: 368631442}
 --- !u!1 &372100308
 GameObject:
   m_ObjectHideFlags: 0
@@ -4517,6 +4686,49 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &485989340 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8370674914746243233, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &485989343 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8370674914746243260, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &485989344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485989340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bce927b541cd6245892812f701b06b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: '{"nhits": 1, "parameters": {"dataset": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "rows": 10, "start": 0, "refine": {"nombre": "Mol\u00ed del Sol"}, "format":
+    "json", "timezone": "UTC"}, "records": [{"datasetid": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "recordid": "e0b6ee52e38b390660bb1c3e64534dcacd4f2c95", "fields": {"so2": 2.0,
+    "no2": 6.0, "pm10": 25.0, "geo_point_2d": [39.4811060881372, -0.4087933161695803],
+    "direccion": "Avda. P\u00edo Baroja - Avda. General Avil\u00e9s", "fecha_carga":
+    "2023-07-12T12:20:19+00:00", "calidad_ambiental": "Razonablemente Buena", "objectid":
+    25, "geo_shape": {"coordinates": [-0.4087933161695803, 39.4811060881372], "type":
+    "Point"}, "tipozona": "Suburbana", "tipoemision": "Tr\u00e1fico", "globalid":
+    "{3DD542DB-13C5-49FD-BA42-536383DC21A6}", "nombre": "Mol\u00ed del Sol", "parametros":
+    "Di\u00f3xido de azufre (SO2),Mon\u00f3xido de carbono (CO),Ozono,\u00d3xidos
+    de nitr\u00f3geno totales (NOx),Mon\u00f3xido de nitr\u00f3geno (NO),Di\u00f3xido
+    de nitr\u00f3geno (NO2),Part\u00edculas PM10,Part\u00edculas PM2.5,Part\u00edculas
+    PM1", "co": 0.3, "mediciones": "http://mapas.valencia.es/WebsMunicipales/uploads/atmosferica/3A.csv",
+    "o3": 29.0, "pm25": 12.0}, "geometry": {"type": "Point", "coordinates": [-0.4087933161695803,
+    39.4811060881372]}, "record_timestamp": "2023-07-12T11:10:04.323Z"}], "facet_groups":
+    [{"name": "nombre", "facets": [{"name": "Mol\u00ed del Sol", "count": 1, "state":
+    "refined", "path": "Mol\u00ed del Sol"}]}]}'
+  sistema: {fileID: 485989343}
 --- !u!1 &514152908
 GameObject:
   m_ObjectHideFlags: 0
@@ -4914,6 +5126,46 @@ MonoBehaviour:
     type: 3}
   liures: {fileID: 3208670167084404506, guid: 7334d6042d99c2942b4dffd6f1c68975, type: 3}
   pos: {fileID: 539494399}
+--- !u!1 &539928074 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8370674914892060327, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &539928077 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8370674914892060322, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &539928078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 539928074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bce927b541cd6245892812f701b06b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: '{"nhits": 1, "parameters": {"dataset": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "rows": 10, "start": 0, "refine": {"nombre": "Patraix"}, "format": "json", "timezone":
+    "UTC"}, "records": [{"datasetid": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "recordid": "2ed25b45ae9370c87df0496cb24610bc8b750b3e", "fields": {"no2": 17.0,
+    "pm10": 45.0, "geo_point_2d": [39.45918908999643, -0.4014113292191286], "direccion":
+    "Archiduque Carlos, 84ac", "fecha_carga": "2023-07-12T12:20:29+00:00", "calidad_ambiental":
+    "Regular", "objectid": 432, "geo_shape": {"coordinates": [-0.4014113292191286,
+    39.45918908999643], "type": "Point"}, "tipozona": "Urbana", "tipoemision": "Tr\u00e1fico",
+    "globalid": "{F783C098-E9C7-4D45-9BD0-FA9B35273E4E}", "nombre": "Patraix", "parametros":
+    "\u00d3xidos de nitr\u00f3geno totales (NOx),Mon\u00f3xido de nitr\u00f3geno
+    (NO),Di\u00f3xido de nitr\u00f3geno (NO2),Part\u00edculas PM10,Part\u00edculas
+    PM2.5", "pm25": 22.0}, "geometry": {"type": "Point", "coordinates": [-0.4014113292191286,
+    39.45918908999643]}, "record_timestamp": "2023-07-12T11:10:04.323Z"}], "facet_groups":
+    [{"name": "nombre", "facets": [{"name": "Patraix", "count": 1, "state": "refined",
+    "path": "Patraix"}]}]}'
+  sistema: {fileID: 539928077}
 --- !u!1 &540824952
 GameObject:
   m_ObjectHideFlags: 0
@@ -6102,11 +6354,11 @@ RectTransform:
   m_Children:
   - {fileID: 1843327256}
   m_Father: {fileID: 1861995832}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.17, y: -0.21}
+  m_AnchoredPosition: {x: -2.17, y: -0.64000237}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!65 &606540531
@@ -6446,6 +6698,47 @@ MonoBehaviour:
     type: 3}
   liures: {fileID: 3208670167084404506, guid: 7334d6042d99c2942b4dffd6f1c68975, type: 3}
   pos: {fileID: 632186675}
+--- !u!1 &638562132 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8370674915575102216, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &638562135 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8370674915575102219, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &638562136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638562132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bce927b541cd6245892812f701b06b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: '{"nhits": 1, "parameters": {"dataset": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "rows": 10, "start": 0, "refine": {"nombre": "Centro"}, "format": "json", "timezone":
+    "UTC"}, "records": [{"datasetid": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "recordid": "423bb3f488780137bd77288f9d5c5a1f67e11ef5", "fields": {"no2": 17.0,
+    "pm10": 53.0, "geo_point_2d": [39.470547670260125, -0.37639765165532396], "direccion":
+    "Plaza Ayuntamiento", "fecha_carga": "2023-07-12T12:20:26+00:00", "calidad_ambiental":
+    "Desfavorable", "objectid": 22, "geo_shape": {"coordinates": [-0.37639765165532396,
+    39.470547670260125], "type": "Point"}, "tipozona": "Urbana", "tipoemision": "Tr\u00e1fico",
+    "globalid": "{76058454-9F3D-4A7B-8965-DA313FE033FC}", "nombre": "Centro", "parametros":
+    "\u00d3xidos de nitr\u00f3geno totales (NOx),Mon\u00f3xido de nitr\u00f3geno
+    (NO),Di\u00f3xido de nitr\u00f3geno (NO2),Part\u00edculas PM10,Part\u00edculas
+    PM2.5", "mediciones": "https://mapas.valencia.es/WebsMunicipales/uploads/atmosferica/8A.csv",
+    "pm25": 22.0}, "geometry": {"type": "Point", "coordinates": [-0.37639765165532396,
+    39.470547670260125]}, "record_timestamp": "2023-07-12T11:10:04.323Z"}], "facet_groups":
+    [{"name": "nombre", "facets": [{"name": "Centro", "count": 1, "state": "refined",
+    "path": "Centro"}]}]}'
+  sistema: {fileID: 638562135}
 --- !u!1 &684243690
 GameObject:
   m_ObjectHideFlags: 0
@@ -8626,6 +8919,46 @@ MonoBehaviour:
     type: 3}
   liures: {fileID: 3208670167084404506, guid: 7334d6042d99c2942b4dffd6f1c68975, type: 3}
   pos: {fileID: 943141763}
+--- !u!1 &946381339 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8370674915380344308, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &946381342 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8370674915380344311, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &946381343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946381339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bce927b541cd6245892812f701b06b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: '{"nhits": 1, "parameters": {"dataset": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "rows": 10, "start": 0, "refine": {"nombre": "Dr. Lluch"}, "format": "json",
+    "timezone": "UTC"}, "records": [{"datasetid": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "recordid": "75b10021ff214eb6c63e9e68973bae09be16fb22", "fields": {"no2": 11.0,
+    "pm10": 60.0, "geo_point_2d": [39.46668475546108, -0.3282894894027388], "direccion":
+    "Calle Dr. Lluch, 48", "fecha_carga": "2023-07-12T12:20:27+00:00", "calidad_ambiental":
+    "Desfavorable", "objectid": 430, "geo_shape": {"coordinates": [-0.3282894894027388,
+    39.46668475546108], "type": "Point"}, "tipozona": "Urbana", "tipoemision": "Tr\u00e1fico",
+    "globalid": "{72544A7A-34AD-465C-9D05-3646DE5285C6}", "nombre": "Dr. Lluch",
+    "parametros": "\u00d3xidos de nitr\u00f3geno totales (NOx),Mon\u00f3xido de nitr\u00f3geno
+    (NO),Di\u00f3xido de nitr\u00f3geno (NO2),Part\u00edculas PM10,Part\u00edculas
+    PM2.5,Part\u00edculas PM1", "pm25": 26.0}, "geometry": {"type": "Point", "coordinates":
+    [-0.3282894894027388, 39.46668475546108]}, "record_timestamp": "2023-07-12T11:10:04.323Z"}],
+    "facet_groups": [{"name": "nombre", "facets": [{"name": "Dr. Lluch", "count":
+    1, "state": "refined", "path": "Dr. Lluch"}]}]}'
+  sistema: {fileID: 946381342}
 --- !u!1 &946384956
 GameObject:
   m_ObjectHideFlags: 0
@@ -10011,6 +10344,48 @@ PlayableDirector:
     value: {fileID: 546110279}
   m_ExposedReferences:
     m_References: []
+--- !u!1 &1033264001 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8370674914581427039, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1033264004 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8370674914581427034, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1033264005
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033264001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bce927b541cd6245892812f701b06b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: '{"nhits": 1, "parameters": {"dataset": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "rows": 10, "start": 0, "refine": {"nombre": "Francia"}, "format": "json", "timezone":
+    "UTC"}, "records": [{"datasetid": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "recordid": "744a5e5dd881c546e9736a0d75d80ac089ff7bb1", "fields": {"so2": 3.0,
+    "no2": 5.0, "pm10": 29.0, "geo_point_2d": [39.45782688751831, -0.342986232422652],
+    "direccion": "Avda. de Francia, 60", "fecha_carga": "2023-07-12T12:20:16+00:00",
+    "calidad_ambiental": "Razonablemente Buena", "objectid": 23, "geo_shape": {"coordinates":
+    [-0.342986232422652, 39.45782688751831], "type": "Point"}, "tipozona": "Urbana",
+    "tipoemision": "Tr\u00e1fico", "globalid": "{A91831BC-DD9A-4957-9C0D-BA60E8DA0602}",
+    "nombre": "Francia", "parametros": "Di\u00f3xido de azufre (SO2),Mon\u00f3xido
+    de carbono (CO),Ozono,\u00d3xidos de nitr\u00f3geno totales (NOx),Mon\u00f3xido
+    de nitr\u00f3geno (NO),Di\u00f3xido de nitr\u00f3geno (NO2),Velocidad de viento
+    (Veloc.), Particulas PM10, Particulas PM2,5", "co": 0.1, "mediciones": "http://mapas.valencia.es/WebsMunicipales/uploads/atmosferica/6A.csv",
+    "o3": 46.0, "pm25": 11.0}, "geometry": {"type": "Point", "coordinates": [-0.342986232422652,
+    39.45782688751831]}, "record_timestamp": "2023-07-12T11:10:04.323Z"}], "facet_groups":
+    [{"name": "nombre", "facets": [{"name": "Francia", "count": 1, "state": "refined",
+    "path": "Francia"}]}]}'
+  sistema: {fileID: 1033264004}
 --- !u!1 &1033699600
 GameObject:
   m_ObjectHideFlags: 0
@@ -10345,8 +10720,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4294499977
+  m_fontColor: {r: 0.5372549, g: 0.87058824, b: 0.972549, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -10413,6 +10788,47 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1069458719}
   m_CullTransparentMesh: 1
+--- !u!1 &1075007058 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8370674915678542327, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1075007061 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8370674915678542322, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1075007062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075007058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bce927b541cd6245892812f701b06b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: '{"nhits": 1, "parameters": {"dataset": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "rows": 10, "start": 0, "refine": {"nombre": "Centro"}, "format": "json", "timezone":
+    "UTC"}, "records": [{"datasetid": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "recordid": "423bb3f488780137bd77288f9d5c5a1f67e11ef5", "fields": {"no2": 17.0,
+    "pm10": 53.0, "geo_point_2d": [39.470547670260125, -0.37639765165532396], "direccion":
+    "Plaza Ayuntamiento", "fecha_carga": "2023-07-12T12:20:26+00:00", "calidad_ambiental":
+    "Desfavorable", "objectid": 22, "geo_shape": {"coordinates": [-0.37639765165532396,
+    39.470547670260125], "type": "Point"}, "tipozona": "Urbana", "tipoemision": "Tr\u00e1fico",
+    "globalid": "{76058454-9F3D-4A7B-8965-DA313FE033FC}", "nombre": "Centro", "parametros":
+    "\u00d3xidos de nitr\u00f3geno totales (NOx),Mon\u00f3xido de nitr\u00f3geno
+    (NO),Di\u00f3xido de nitr\u00f3geno (NO2),Part\u00edculas PM10,Part\u00edculas
+    PM2.5", "mediciones": "https://mapas.valencia.es/WebsMunicipales/uploads/atmosferica/8A.csv",
+    "pm25": 22.0}, "geometry": {"type": "Point", "coordinates": [-0.37639765165532396,
+    39.470547670260125]}, "record_timestamp": "2023-07-12T11:10:04.323Z"}], "facet_groups":
+    [{"name": "nombre", "facets": [{"name": "Centro", "count": 1, "state": "refined",
+    "path": "Centro"}]}]}'
+  sistema: {fileID: 1075007061}
 --- !u!1001 &1096390152
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10763,7 +11179,7 @@ PrefabInstance:
     - target: {fileID: 6390971368484226296, guid: 338f8dd702433bf439a620ec244882d6,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6678471022124179293, guid: 338f8dd702433bf439a620ec244882d6,
         type: 3}
@@ -10773,7 +11189,7 @@ PrefabInstance:
     - target: {fileID: 7064740940396713636, guid: 338f8dd702433bf439a620ec244882d6,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7941565450524557737, guid: 338f8dd702433bf439a620ec244882d6,
         type: 3}
@@ -10804,6 +11220,41 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Center.z
       value: -0.0016568805
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674913871142540, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674913910920722, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674913910920749, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674913979532802, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674913979532829, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674914018327892, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674914018327897, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8370674914063924653, guid: 338f8dd702433bf439a620ec244882d6,
         type: 3}
@@ -10849,6 +11300,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674914144676754, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674914144676759, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674914310629921, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674914310629948, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8370674914409762000, guid: 338f8dd702433bf439a620ec244882d6,
         type: 3}
@@ -10900,6 +11371,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 8370674914412422922, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674914412422927, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8370674914469597701, guid: 338f8dd702433bf439a620ec244882d6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -10944,6 +11425,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674914581427034, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674914581427039, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674914593104452, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674914593104455, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8370674914631535660, guid: 338f8dd702433bf439a620ec244882d6,
         type: 3}
@@ -11035,6 +11536,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 8370674914708526256, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674914708526259, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8370674914713350064, guid: 338f8dd702433bf439a620ec244882d6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -11085,6 +11596,26 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8370674914719937713, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674914719937740, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674914746243233, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674914746243260, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8370674914768947108, guid: 338f8dd702433bf439a620ec244882d6,
         type: 3}
       propertyPath: m_text
@@ -11134,6 +11665,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674914892060322, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674914892060327, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8370674915039590797, guid: 338f8dd702433bf439a620ec244882d6,
         type: 3}
@@ -11270,6 +11811,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 8370674915266868066, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674915266868093, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8370674915320261476, guid: 338f8dd702433bf439a620ec244882d6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -11359,6 +11910,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674915380344308, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674915380344311, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8370674915386511341, guid: 338f8dd702433bf439a620ec244882d6,
         type: 3}
@@ -11545,6 +12106,26 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 8370674915501396035, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674915501396062, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674915575102216, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674915575102219, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8370674915609995906, guid: 338f8dd702433bf439a620ec244882d6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -11635,6 +12216,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 8370674915632736096, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674915632736101, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8370674915642784322, guid: 338f8dd702433bf439a620ec244882d6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -11680,6 +12271,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 8370674915678542322, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674915678542327, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8370674915707457781, guid: 338f8dd702433bf439a620ec244882d6,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -11724,6 +12325,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674915934523560, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8370674915934523565, guid: 338f8dd702433bf439a620ec244882d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8437649138836441394, guid: 338f8dd702433bf439a620ec244882d6,
         type: 3}
@@ -12188,6 +12799,49 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1129877292 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8370674914412422927, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1129877295 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8370674914412422922, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1129877296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129877292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bce927b541cd6245892812f701b06b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: '{"nhits": 1, "parameters": {"dataset": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "rows": 10, "start": 0, "refine": {"nombre": "Mol\u00ed del Sol"}, "format":
+    "json", "timezone": "UTC"}, "records": [{"datasetid": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "recordid": "e0b6ee52e38b390660bb1c3e64534dcacd4f2c95", "fields": {"so2": 2.0,
+    "no2": 6.0, "pm10": 25.0, "geo_point_2d": [39.4811060881372, -0.4087933161695803],
+    "direccion": "Avda. P\u00edo Baroja - Avda. General Avil\u00e9s", "fecha_carga":
+    "2023-07-12T12:20:19+00:00", "calidad_ambiental": "Razonablemente Buena", "objectid":
+    25, "geo_shape": {"coordinates": [-0.4087933161695803, 39.4811060881372], "type":
+    "Point"}, "tipozona": "Suburbana", "tipoemision": "Tr\u00e1fico", "globalid":
+    "{3DD542DB-13C5-49FD-BA42-536383DC21A6}", "nombre": "Mol\u00ed del Sol", "parametros":
+    "Di\u00f3xido de azufre (SO2),Mon\u00f3xido de carbono (CO),Ozono,\u00d3xidos
+    de nitr\u00f3geno totales (NOx),Mon\u00f3xido de nitr\u00f3geno (NO),Di\u00f3xido
+    de nitr\u00f3geno (NO2),Part\u00edculas PM10,Part\u00edculas PM2.5,Part\u00edculas
+    PM1", "co": 0.3, "mediciones": "http://mapas.valencia.es/WebsMunicipales/uploads/atmosferica/3A.csv",
+    "o3": 29.0, "pm25": 12.0}, "geometry": {"type": "Point", "coordinates": [-0.4087933161695803,
+    39.4811060881372]}, "record_timestamp": "2023-07-12T11:10:04.323Z"}], "facet_groups":
+    [{"name": "nombre", "facets": [{"name": "Mol\u00ed del Sol", "count": 1, "state":
+    "refined", "path": "Mol\u00ed del Sol"}]}]}'
+  sistema: {fileID: 1129877295}
 --- !u!1 &1131554130
 GameObject:
   m_ObjectHideFlags: 0
@@ -12976,6 +13630,48 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1178639263 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8370674914593104452, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1178639266 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8370674914593104455, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1178639267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1178639263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bce927b541cd6245892812f701b06b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: '{"nhits": 1, "parameters": {"dataset": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "rows": 10, "start": 0, "refine": {"nombre": "Viveros"}, "format": "json", "timezone":
+    "UTC"}, "records": [{"datasetid": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "recordid": "8be0bba8617ae91066a36969c2ab0eeb07941207", "fields": {"so2": 4.0,
+    "no2": 4.0, "geo_point_2d": [39.47964092480533, -0.36964822314381013], "direccion":
+    "Jardines de Viveros", "fecha_carga": "2023-07-12T12:20:25+00:00", "calidad_ambiental":
+    "Buena", "objectid": 28, "geo_shape": {"coordinates": [-0.36964822314381013,
+    39.47964092480533], "type": "Point"}, "tipozona": "Urbana", "tipoemision": "Fondo",
+    "globalid": "{BDBBDFDF-C316-466A-A64C-897F1F5ED4C8}", "nombre": "Viveros", "parametros":
+    "Di\u00f3xido de azufre (SO2),\u00d3xidos de nitr\u00f3geno totales (NOx),Mon\u00f3xido
+    de nitr\u00f3geno (NO),Di\u00f3xido de nitr\u00f3geno (NO2),Ozono,Part\u00edculas
+    PM2.5,Part\u00edculas PM10,Niquel (Ni),Ars\u00e9nico (As),Plomo (Pb),Cadmio (Cd)",
+    "mediciones": "http://mapas.valencia.es/WebsMunicipales/uploads/atmosferica/5A.csv",
+    "o3": 38.0}, "geometry": {"type": "Point", "coordinates": [-0.36964822314381013,
+    39.47964092480533]}, "record_timestamp": "2023-07-12T11:10:04.323Z"}], "facet_groups":
+    [{"name": "nombre", "facets": [{"name": "Viveros", "count": 1, "state": "refined",
+    "path": "Viveros"}]}]}'
+  sistema: {fileID: 1178639266}
 --- !u!1 &1180870461
 GameObject:
   m_ObjectHideFlags: 0
@@ -14795,6 +15491,141 @@ MonoBehaviour:
     type: 3}
   liures: {fileID: 3208670167084404506, guid: 7334d6042d99c2942b4dffd6f1c68975, type: 3}
   pos: {fileID: 1245105420}
+--- !u!1 &1272193079
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1272193080}
+  - component: {fileID: 1272193082}
+  - component: {fileID: 1272193081}
+  m_Layer: 5
+  m_Name: TituloLeyenda
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1272193080
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272193079}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalScale: {x: 0.59999883, y: 0.6000446, z: 0.20002648}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1861995832}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 2.52}
+  m_SizeDelta: {x: 8.78, y: 2}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1272193081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272193079}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Aparcamientos
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294499977
+  m_fontColor: {r: 0.5372549, g: 0.87058824, b: 0.972549, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 1
+  m_fontSizeBase: 1
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 16
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1272193082
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1272193079}
+  m_CullTransparentMesh: 1
 --- !u!1 &1277712674
 GameObject:
   m_ObjectHideFlags: 0
@@ -15153,11 +15984,11 @@ RectTransform:
   m_Children:
   - {fileID: 51605022}
   m_Father: {fileID: 1861995832}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.169996, y: 2.05}
+  m_AnchoredPosition: {x: -2.169996, y: 0.79}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!65 &1325454869
@@ -16768,6 +17599,48 @@ PlayableDirector:
     value: {fileID: 176515483}
   m_ExposedReferences:
     m_References: []
+--- !u!1 &1462119319 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8370674915501396035, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1462119322 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8370674915501396062, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1462119323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462119319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bce927b541cd6245892812f701b06b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: '{"nhits": 1, "parameters": {"dataset": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "rows": 10, "start": 0, "refine": {"nombre": "Viveros"}, "format": "json", "timezone":
+    "UTC"}, "records": [{"datasetid": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "recordid": "8be0bba8617ae91066a36969c2ab0eeb07941207", "fields": {"so2": 4.0,
+    "no2": 4.0, "geo_point_2d": [39.47964092480533, -0.36964822314381013], "direccion":
+    "Jardines de Viveros", "fecha_carga": "2023-07-12T12:20:25+00:00", "calidad_ambiental":
+    "Buena", "objectid": 28, "geo_shape": {"coordinates": [-0.36964822314381013,
+    39.47964092480533], "type": "Point"}, "tipozona": "Urbana", "tipoemision": "Fondo",
+    "globalid": "{BDBBDFDF-C316-466A-A64C-897F1F5ED4C8}", "nombre": "Viveros", "parametros":
+    "Di\u00f3xido de azufre (SO2),\u00d3xidos de nitr\u00f3geno totales (NOx),Mon\u00f3xido
+    de nitr\u00f3geno (NO),Di\u00f3xido de nitr\u00f3geno (NO2),Ozono,Part\u00edculas
+    PM2.5,Part\u00edculas PM10,Niquel (Ni),Ars\u00e9nico (As),Plomo (Pb),Cadmio (Cd)",
+    "mediciones": "http://mapas.valencia.es/WebsMunicipales/uploads/atmosferica/5A.csv",
+    "o3": 38.0}, "geometry": {"type": "Point", "coordinates": [-0.36964822314381013,
+    39.47964092480533]}, "record_timestamp": "2023-07-12T11:10:04.323Z"}], "facet_groups":
+    [{"name": "nombre", "facets": [{"name": "Viveros", "count": 1, "state": "refined",
+    "path": "Viveros"}]}]}'
+  sistema: {fileID: 1462119322}
 --- !u!1 &1463815765
 GameObject:
   m_ObjectHideFlags: 0
@@ -18171,6 +19044,49 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1549397966 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8370674914018327897, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1549397968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549397966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bce927b541cd6245892812f701b06b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: '{"nhits": 1, "parameters": {"dataset": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "rows": 10, "start": 0, "refine": {"nombre": "Pista de Silla"}, "format": "json",
+    "timezone": "UTC"}, "records": [{"datasetid": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "recordid": "984df1b4bfe1e11bde7999f03c785b432c926c9a", "fields": {"so2": 3.0,
+    "no2": 5.0, "pm10": 21.0, "geo_point_2d": [39.45806095369672, -0.37664393657915707],
+    "direccion": "C/ Filipinas, s/n", "fecha_carga": "2023-07-12T12:20:22+00:00",
+    "calidad_ambiental": "Regular", "objectid": 26, "geo_shape": {"coordinates":
+    [-0.37664393657915707, 39.45806095369672], "type": "Point"}, "tipozona": "Urbana",
+    "tipoemision": "Tr\u00e1fico", "globalid": "{233DC210-C540-4358-949F-1BFF77C81EB7}",
+    "nombre": "Pista de Silla", "parametros": "Di\u00f3xido de azufre (SO2),Mon\u00f3xido
+    de carbono (CO),Ozono,\u00d3xidos de nitr\u00f3geno totales (NOx),Mon\u00f3xido
+    de nitr\u00f3geno (NO),Di\u00f3xido de nitr\u00f3geno (NO2),Benceno (Benc),Tolueno
+    (Tolue),Xileno (Xilen),Part\u00edculas PM10,Part\u00edculas PM2.5,Nivel de presi\u00f3n
+    sonora (SPL)", "co": 0.7, "mediciones": "http://mapas.valencia.es/WebsMunicipales/uploads/atmosferica/4A.csv",
+    "o3": 44.0, "pm25": 23.0}, "geometry": {"type": "Point", "coordinates": [-0.37664393657915707,
+    39.45806095369672]}, "record_timestamp": "2023-07-12T11:00:47.523Z"}], "facet_groups":
+    [{"name": "nombre", "facets": [{"name": "Pista de Silla", "count": 1, "state":
+    "refined", "path": "Pista de Silla"}]}]}'
+  sistema: {fileID: 1549397970}
+--- !u!198 &1549397970 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8370674914018327892, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1555746062
 GameObject:
   m_ObjectHideFlags: 0
@@ -18887,6 +19803,47 @@ Transform:
   m_Father: {fileID: 38969383}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1724498416 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8370674915934523565, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1724498419 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8370674915934523560, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1724498420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1724498416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bce927b541cd6245892812f701b06b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: '{"nhits": 1, "parameters": {"dataset": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "rows": 10, "start": 0, "refine": {"nombre": "Centro"}, "format": "json", "timezone":
+    "UTC"}, "records": [{"datasetid": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "recordid": "423bb3f488780137bd77288f9d5c5a1f67e11ef5", "fields": {"no2": 17.0,
+    "pm10": 53.0, "geo_point_2d": [39.470547670260125, -0.37639765165532396], "direccion":
+    "Plaza Ayuntamiento", "fecha_carga": "2023-07-12T12:20:26+00:00", "calidad_ambiental":
+    "Desfavorable", "objectid": 22, "geo_shape": {"coordinates": [-0.37639765165532396,
+    39.470547670260125], "type": "Point"}, "tipozona": "Urbana", "tipoemision": "Tr\u00e1fico",
+    "globalid": "{76058454-9F3D-4A7B-8965-DA313FE033FC}", "nombre": "Centro", "parametros":
+    "\u00d3xidos de nitr\u00f3geno totales (NOx),Mon\u00f3xido de nitr\u00f3geno
+    (NO),Di\u00f3xido de nitr\u00f3geno (NO2),Part\u00edculas PM10,Part\u00edculas
+    PM2.5", "mediciones": "https://mapas.valencia.es/WebsMunicipales/uploads/atmosferica/8A.csv",
+    "pm25": 22.0}, "geometry": {"type": "Point", "coordinates": [-0.37639765165532396,
+    39.470547670260125]}, "record_timestamp": "2023-07-12T11:10:04.323Z"}], "facet_groups":
+    [{"name": "nombre", "facets": [{"name": "Centro", "count": 1, "state": "refined",
+    "path": "Centro"}]}]}'
+  sistema: {fileID: 1724498419}
 --- !u!1 &1752360408
 GameObject:
   m_ObjectHideFlags: 0
@@ -20420,8 +21377,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4294499977
+  m_fontColor: {r: 0.5372549, g: 0.87058824, b: 0.972549, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -20779,6 +21736,7 @@ RectTransform:
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1272193080}
   - {fileID: 1325454868}
   - {fileID: 606540530}
   - {fileID: 1965365801}
@@ -20787,7 +21745,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.094, y: 0.028}
+  m_AnchoredPosition: {x: 2.096, y: 0.028}
   m_SizeDelta: {x: 8, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1861995833
@@ -21539,6 +22497,49 @@ Transform:
   m_Father: {fileID: 176515484}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1961322140 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8370674914719937713, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1961322143 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8370674914719937740, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1961322144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961322140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bce927b541cd6245892812f701b06b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: '{"nhits": 1, "parameters": {"dataset": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "rows": 10, "start": 0, "refine": {"nombre": "Mol\u00ed del Sol"}, "format":
+    "json", "timezone": "UTC"}, "records": [{"datasetid": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "recordid": "e0b6ee52e38b390660bb1c3e64534dcacd4f2c95", "fields": {"so2": 2.0,
+    "no2": 6.0, "pm10": 25.0, "geo_point_2d": [39.4811060881372, -0.4087933161695803],
+    "direccion": "Avda. P\u00edo Baroja - Avda. General Avil\u00e9s", "fecha_carga":
+    "2023-07-12T12:20:19+00:00", "calidad_ambiental": "Razonablemente Buena", "objectid":
+    25, "geo_shape": {"coordinates": [-0.4087933161695803, 39.4811060881372], "type":
+    "Point"}, "tipozona": "Suburbana", "tipoemision": "Tr\u00e1fico", "globalid":
+    "{3DD542DB-13C5-49FD-BA42-536383DC21A6}", "nombre": "Mol\u00ed del Sol", "parametros":
+    "Di\u00f3xido de azufre (SO2),Mon\u00f3xido de carbono (CO),Ozono,\u00d3xidos
+    de nitr\u00f3geno totales (NOx),Mon\u00f3xido de nitr\u00f3geno (NO),Di\u00f3xido
+    de nitr\u00f3geno (NO2),Part\u00edculas PM10,Part\u00edculas PM2.5,Part\u00edculas
+    PM1", "co": 0.3, "mediciones": "http://mapas.valencia.es/WebsMunicipales/uploads/atmosferica/3A.csv",
+    "o3": 29.0, "pm25": 12.0}, "geometry": {"type": "Point", "coordinates": [-0.4087933161695803,
+    39.4811060881372]}, "record_timestamp": "2023-07-12T11:10:04.323Z"}], "facet_groups":
+    [{"name": "nombre", "facets": [{"name": "Mol\u00ed del Sol", "count": 1, "state":
+    "refined", "path": "Mol\u00ed del Sol"}]}]}'
+  sistema: {fileID: 1961322143}
 --- !u!1 &1964940668
 GameObject:
   m_ObjectHideFlags: 0
@@ -21694,11 +22695,11 @@ RectTransform:
   m_Children:
   - {fileID: 1069458720}
   m_Father: {fileID: 1861995832}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.169996, y: -2.37}
+  m_AnchoredPosition: {x: -2.169996, y: -2.1000023}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!65 &1965365802
@@ -21866,6 +22867,47 @@ MonoBehaviour:
     type: 3}
   liures: {fileID: 3208670167084404506, guid: 7334d6042d99c2942b4dffd6f1c68975, type: 3}
   pos: {fileID: 1973607630}
+--- !u!1 &1976566204 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8370674915632736101, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &1976566207 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8370674915632736096, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1976566208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976566204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bce927b541cd6245892812f701b06b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: '{"nhits": 1, "parameters": {"dataset": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "rows": 10, "start": 0, "refine": {"nombre": "Centro"}, "format": "json", "timezone":
+    "UTC"}, "records": [{"datasetid": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "recordid": "423bb3f488780137bd77288f9d5c5a1f67e11ef5", "fields": {"no2": 17.0,
+    "pm10": 53.0, "geo_point_2d": [39.470547670260125, -0.37639765165532396], "direccion":
+    "Plaza Ayuntamiento", "fecha_carga": "2023-07-12T12:20:26+00:00", "calidad_ambiental":
+    "Desfavorable", "objectid": 22, "geo_shape": {"coordinates": [-0.37639765165532396,
+    39.470547670260125], "type": "Point"}, "tipozona": "Urbana", "tipoemision": "Tr\u00e1fico",
+    "globalid": "{76058454-9F3D-4A7B-8965-DA313FE033FC}", "nombre": "Centro", "parametros":
+    "\u00d3xidos de nitr\u00f3geno totales (NOx),Mon\u00f3xido de nitr\u00f3geno
+    (NO),Di\u00f3xido de nitr\u00f3geno (NO2),Part\u00edculas PM10,Part\u00edculas
+    PM2.5", "mediciones": "https://mapas.valencia.es/WebsMunicipales/uploads/atmosferica/8A.csv",
+    "pm25": 22.0}, "geometry": {"type": "Point", "coordinates": [-0.37639765165532396,
+    39.470547670260125]}, "record_timestamp": "2023-07-12T11:10:04.323Z"}], "facet_groups":
+    [{"name": "nombre", "facets": [{"name": "Centro", "count": 1, "state": "refined",
+    "path": "Centro"}]}]}'
+  sistema: {fileID: 1976566207}
 --- !u!1 &1992016492
 GameObject:
   m_ObjectHideFlags: 0
@@ -22384,6 +23426,46 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &2056586964 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8370674915266868066, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &2056586967 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8370674915266868093, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2056586968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056586964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bce927b541cd6245892812f701b06b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: '{"nhits": 1, "parameters": {"dataset": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "rows": 10, "start": 0, "refine": {"nombre": "Patraix"}, "format": "json", "timezone":
+    "UTC"}, "records": [{"datasetid": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "recordid": "2ed25b45ae9370c87df0496cb24610bc8b750b3e", "fields": {"no2": 17.0,
+    "pm10": 45.0, "geo_point_2d": [39.45918908999643, -0.4014113292191286], "direccion":
+    "Archiduque Carlos, 84ac", "fecha_carga": "2023-07-12T12:20:29+00:00", "calidad_ambiental":
+    "Regular", "objectid": 432, "geo_shape": {"coordinates": [-0.4014113292191286,
+    39.45918908999643], "type": "Point"}, "tipozona": "Urbana", "tipoemision": "Tr\u00e1fico",
+    "globalid": "{F783C098-E9C7-4D45-9BD0-FA9B35273E4E}", "nombre": "Patraix", "parametros":
+    "\u00d3xidos de nitr\u00f3geno totales (NOx),Mon\u00f3xido de nitr\u00f3geno
+    (NO),Di\u00f3xido de nitr\u00f3geno (NO2),Part\u00edculas PM10,Part\u00edculas
+    PM2.5", "pm25": 22.0}, "geometry": {"type": "Point", "coordinates": [-0.4014113292191286,
+    39.45918908999643]}, "record_timestamp": "2023-07-12T11:10:04.323Z"}], "facet_groups":
+    [{"name": "nombre", "facets": [{"name": "Patraix", "count": 1, "state": "refined",
+    "path": "Patraix"}]}]}'
+  sistema: {fileID: 2056586967}
 --- !u!1 &2056678629
 GameObject:
   m_ObjectHideFlags: 0
@@ -22435,6 +23517,49 @@ MonoBehaviour:
     type: 3}
   liures: {fileID: 3208670167084404506, guid: 7334d6042d99c2942b4dffd6f1c68975, type: 3}
   pos: {fileID: 2056678630}
+--- !u!1 &2063652948 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8370674913910920722, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &2063652951 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 8370674913910920749, guid: 338f8dd702433bf439a620ec244882d6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1096390152}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2063652952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2063652948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7bce927b541cd6245892812f701b06b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  url: '{"nhits": 1, "parameters": {"dataset": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "rows": 10, "start": 0, "refine": {"nombre": "Pista de Silla"}, "format": "json",
+    "timezone": "UTC"}, "records": [{"datasetid": "estacions-contaminacio-atmosferiques-estaciones-contaminacion-atmosfericas",
+    "recordid": "984df1b4bfe1e11bde7999f03c785b432c926c9a", "fields": {"so2": 3.0,
+    "no2": 5.0, "pm10": 21.0, "geo_point_2d": [39.45806095369672, -0.37664393657915707],
+    "direccion": "C/ Filipinas, s/n", "fecha_carga": "2023-07-12T12:20:22+00:00",
+    "calidad_ambiental": "Regular", "objectid": 26, "geo_shape": {"coordinates":
+    [-0.37664393657915707, 39.45806095369672], "type": "Point"}, "tipozona": "Urbana",
+    "tipoemision": "Tr\u00e1fico", "globalid": "{233DC210-C540-4358-949F-1BFF77C81EB7}",
+    "nombre": "Pista de Silla", "parametros": "Di\u00f3xido de azufre (SO2),Mon\u00f3xido
+    de carbono (CO),Ozono,\u00d3xidos de nitr\u00f3geno totales (NOx),Mon\u00f3xido
+    de nitr\u00f3geno (NO),Di\u00f3xido de nitr\u00f3geno (NO2),Benceno (Benc),Tolueno
+    (Tolue),Xileno (Xilen),Part\u00edculas PM10,Part\u00edculas PM2.5,Nivel de presi\u00f3n
+    sonora (SPL)", "co": 0.7, "mediciones": "http://mapas.valencia.es/WebsMunicipales/uploads/atmosferica/4A.csv",
+    "o3": 44.0, "pm25": 23.0}, "geometry": {"type": "Point", "coordinates": [-0.37664393657915707,
+    39.45806095369672]}, "record_timestamp": "2023-07-12T11:00:47.523Z"}], "facet_groups":
+    [{"name": "nombre", "facets": [{"name": "Pista de Silla", "count": 1, "state":
+    "refined", "path": "Pista de Silla"}]}]}'
+  sistema: {fileID: 2063652951}
 --- !u!1 &2066750440
 GameObject:
   m_ObjectHideFlags: 0
