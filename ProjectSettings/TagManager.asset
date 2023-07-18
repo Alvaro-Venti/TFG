@@ -4,15 +4,8 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Dardo
-  - Paredes
-  - Martillo
-  - Dummy
-  - Arrow
-  - Bola
-  - Bolsillo
-  - Escudo
-  - Mano
+  - Mapa
+  - UIMovil
   layers:
   - Default
   - TransparentFX
